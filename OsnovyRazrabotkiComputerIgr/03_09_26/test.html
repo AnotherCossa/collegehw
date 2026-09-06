@@ -1,14 +1,21 @@
 <html>
 	<head>
+ 		<link rel="stylesheet" href="style.css">
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<form method="post">
-			<label for="login">Login: </label><br>
-			<input type="text" id="login" name="login"><br>
-			<label for="pass">Password: </label><br>
-			<input type="text" id="pass" name="pass"><br>
-			<input type="submit" value="Submit">
-		</form>
+		<div class="container">
+			<div id="authwrap">
+				<div id="authdiv">
+					<form method="post">
+						<label for="login" class="auth">Login</label><br>
+						<input type="text" class="auth" name="login"><br>
+						<label for="pass" class="auth">Password</label><br>
+						<input type="password" class="auth" name="pass"><br>
+						<input type="submit" class="auth" value="Submit">
+					</form>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
