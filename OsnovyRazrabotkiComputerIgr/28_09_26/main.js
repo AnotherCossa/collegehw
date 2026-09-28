@@ -8,9 +8,13 @@ function buttonHandler(value) {
     const buttons = document.getElementsByClassName("button")
     let clicked;
     for (const button of buttons) {
-        if (!button.classList.contains(value)) continue;
+        if (!button.classList.contains(value)) {
+            button.style["border-color"]=button.style["background-color"];
+            continue
+    };
         clicked=button
     }
+    clicked.style["border-color"]="white";
     document.getElementById("outputmessage").innerHTML=messageReference[value]
     return;
 }
