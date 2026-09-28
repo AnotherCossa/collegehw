@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+* {
+    margin: auto;
+}
+.container {
+    margin-top: 400px;
+    width: 300px;
+    height: 60px;;
+    display: flex;
+    flex-direction: row;
+}
+
+.button {
+    height: inherit;
+    width: 20%;
+    border-radius: 5px;
+    color: white;
+}
+.red {
+    border-color: red;
+    background-color: red;
+}
+.blue {
+    border-color: blue;
+    background-color: blue;
+}
+.yellow, .green {
+    color: black;
+}
+
+.yellow {
+    border-color: yellow;
+    background-color: yellow;
+}
+.green {
+    border-color: greenyellow;
+    background-color: greenyellow;
+}
+
+#outputmessage {
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
